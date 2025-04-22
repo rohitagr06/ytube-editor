@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Merge Videos</title>
+</head>
+<body>
+    <h2>Merge Videos</h2>
+    <form method="POST" enctype="multipart/form-data">
+        <label>Select Multiple Videos:
+            <input type="file" name="videos" multiple required>
+        </label><br><br>
+        <button type="submit">Merge</button>
+    </form>
+    <br>
+    <a href="{{ url_for('home') }}">Back to Home</a>
+</body>
+</html>

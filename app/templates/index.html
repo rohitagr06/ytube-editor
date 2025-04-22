@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>YouTube Video Editor</title>
+    <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+    <header>
+        <h1>Welcome to YouTube Video Editor</h1>
+    </header>
+
+    <nav>
+        <ul>
+            <li><a href="{{ url_for('download.download') }}">Download Video</a></li>
+            <li><a href="{{ url_for('edit.cut') }}">Cut Video</a></li>
+            <li><a href="{{ url_for('edit.merge') }}">Merge Videos</a></li>
+        </ul>
+    </nav>
+
+    <footer>
+        <p>© 2025 YouTube Video Editor</p>
+    </footer>
+</body>
+</html>

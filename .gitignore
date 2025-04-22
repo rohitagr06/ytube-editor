@@ -1,0 +1,13 @@
+# Ignore the virtual environment folder
+yt-edit/
+
+# Ignore Python bytecode files
+__pycache__/
+*.pyc
+
+# Ignore Flask's default folder (uploads, output, etc.)
+uploads/
+output/
+
+# Ignore any other unwanted files
+.DS_Store
